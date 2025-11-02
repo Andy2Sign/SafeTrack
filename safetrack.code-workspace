@@ -1,0 +1,35 @@
+{
+  "folders": [
+    {
+      "name": "Frontend",
+      "path": "client"
+    },
+    {
+      "name": "Backend",
+      "path": "server"
+    }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "files.exclude": {
+      "**/.env": true,
+      "**/node_modules": true
+    },
+    "eslint.enable": true,
+    "eslint.validate": ["javascript", "javascriptreact"],
+    "prettier.requireConfig": true,
+    "terminal.integrated.defaultProfile.windows": "bash",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "mongodb.mongodb-vscode",
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "streetsidesoftware.code-spell-checker"
+    ]
+  }
+}
